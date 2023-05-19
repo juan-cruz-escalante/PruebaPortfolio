@@ -1,0 +1,67 @@
+.cabecera{
+    display: flex;
+    background-color: rgb(100, 166, 248);
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+}
+
+.tituloCabecera{ /*Juan Cruz Escalante*/
+    flex-basis: 80%;
+    text-align: left;
+    font-size: 4.0rem;
+ }
+
+.main{/*Cuerpo*/
+    width: 99%;
+    height: 400px;
+    text-align: center;
+    color: black;
+    border: 9px solid black;
+    padding: 5% 0;
+    color:#222222;
+    background: linear-gradient(rgba(100, 166, 248),rgba(245, 239, 239, 0.61)) ;
+}
+
+.m_Parrafo{
+    color: rgb(4, 0, 0);
+    font-size: 2.0rem;
+}
+
+.Form{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 2% 0;
+    color:#222222;
+}
+
+.Form h2{
+    font-size: 2.4rem;
+}
+
+.inputs{
+    width: 44%;
+    margin: 1%;
+    height: 30px;
+    border: 1px #acacac solid;
+    border-radius: 3px;
+}
+
+.inputs::placeholder{
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.Form textarea{
+    height: 100px;
+    width: 90%;
+}
+
+.boton{
+    border: 1px solid #2da546;
+    border-radius: 5px;
+    background-color: #2da546;
+    padding: 0.6%;
+    color: white;
+    font-size: 1.3rem;
+}
